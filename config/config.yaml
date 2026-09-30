@@ -1,0 +1,19 @@
+seed: 42
+n_rows: 20000
+paths:
+  data: data/applicants.csv
+  models: models
+  outputs: outputs
+  metrics: outputs/metrics.json
+  fairness: outputs/fairness_report.md
+  pilot: outputs/pilot_comparison.csv
+  audit: outputs/audit.jsonl
+thresholds:
+  approval_cutoff_pd: 0.18
+  review_low_pd: 0.14
+  review_high_pd: 0.23
+  confidence_review_below: 0.60
+protected_attributes: [age_band, sex, race_ethnicity, zip_income_tier]
+model_version: credit-sense-prototype-1.0
+review_cost_usd: 7.50
+review_minutes: 18

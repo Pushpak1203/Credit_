@@ -1,0 +1,1 @@
+Optional notebooks are intentionally omitted; all logic is executable from modules/Makefile for reproducibility.

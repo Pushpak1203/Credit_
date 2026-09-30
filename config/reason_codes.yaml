@@ -1,0 +1,11 @@
+codes:
+  delinquencies_24m: {code: R01, text: Recent delinquency activity increased modeled risk.}
+  on_time_ratio: {code: R02, text: Payment regularity was below the model's lower-risk range.}
+  dti: {code: R03, text: Debt-to-income was relatively high for this application.}
+  credit_score: {code: R04, text: Credit score was below the model's lower-risk range.}
+  income_volatility: {code: R05, text: Income inflows were relatively volatile.}
+  overdraft_count: {code: R06, text: Recent overdraft activity increased modeled risk.}
+  savings_buffer_months: {code: R07, text: Savings buffer was relatively limited.}
+  utility_rent_regularity: {code: R08, text: Utility/rent payment regularity was relatively low.}
+  requested_amount: {code: R09, text: Requested amount contributed upward to modeled risk.}
+  employment_tenure_years: {code: R10, text: Employment tenure was relatively short.}

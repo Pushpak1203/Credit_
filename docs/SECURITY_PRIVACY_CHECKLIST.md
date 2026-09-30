@@ -1,0 +1,11 @@
+# Security & Privacy Checklist
+- No raw PII in audit logs; hash input payloads.
+- Validate API schemas and reject unexpected types/ranges.
+- Local-only prototype; no external network calls.
+- Apply OWASP API Top 10 controls before deployment.
+- Minimize data collection and document consent/permission for alternative data.
+- Define retention/deletion rules and access controls.
+- Encrypt data at rest/in transit in any real deployment.
+- Add authentication/authorization, secrets management, rate limiting, structured security logging.
+- Conduct threat modeling, dependency scanning, penetration testing and incident response planning.
+- Security certification such as SOC 2 is a future production requirement, not established here.
